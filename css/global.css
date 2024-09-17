@@ -56,6 +56,26 @@ h2 {
     align-items: center;
     padding: 20px;
 
+}
+
+h5 {
+    color: #000000;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.sobre-container {
+    max-width: 500px;
+    margin: 1000px auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 930px;
+
+}
+
+
 footer{
     background-color: #ff004d;
     text-align: center;
@@ -67,3 +87,4 @@ footer a{
     color: #333;
 
 }
+
