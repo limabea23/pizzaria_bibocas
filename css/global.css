@@ -55,7 +55,7 @@ h2 {
     height: 150px;
     align-items: center;
     padding: 20px;
-
+}
 footer{
     background-color: #ff004d;
     text-align: center;
@@ -65,5 +65,4 @@ footer{
 footer a{
     text-decoration: none;
     color: #333;
-
 }
