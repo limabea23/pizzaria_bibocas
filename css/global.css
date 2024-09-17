@@ -25,7 +25,7 @@ body {
     }
     
 
-header {
+header{
     display: flex;
     justify-content: space-around;
     height: 150px;
@@ -48,6 +48,14 @@ header {
     width: 50%;
 }
 
+
+h2 {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    padding: 20px;
+
 footer{
     background-color: #ff004d;
     text-align: center;
@@ -57,4 +65,5 @@ footer{
 footer a{
     text-decoration: none;
     color: #333;
+
 }
