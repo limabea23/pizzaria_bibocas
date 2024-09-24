@@ -1,26 +1,22 @@
-.pizza,
-.bebida {
+.container,
+.container-secundario{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    justify-content: space-between;
+    flex-wrap:nowrap;
 }
 
 .pizza,
 .bebida {
     background-color: #fff;
     border-radius: 10px;
-    width: 250px;
-    text-align: center;
     padding: 15px;
     margin: 10px;
+    text-align: center;
 }
-
 
 .pizza img,
 .bebida img {
     width: 100%;
-    height: 200px;
-    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
 }
