@@ -85,3 +85,29 @@ footer a{
     color: #333;
 }
 
+.pizza, 
+.bebida {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pizza, 
+.bebida {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.pizza img, 
+.bebida img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
