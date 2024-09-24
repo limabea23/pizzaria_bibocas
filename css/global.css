@@ -42,10 +42,26 @@ header{
     align-items: center;
 }
 
-#links {
+#pages {
     display: flex;
     justify-content: space-around;
     width: 50%;
+    
+}
+
+#pages a { 
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        border-bottom: 3px solid transparent;
+        border-radius: 6px;
+        transition: 0.3s ease-in-out;
+    
+}
+#links a:hover {
+    border-bottom: 3px solid #110301;
+    color: rgb(158, 0, 105);
+    transform: scale(1.0);
 }
 
 
@@ -55,23 +71,6 @@ h2 {
     height: 150px;
     align-items: center;
     padding: 20px;
-
-}
-
-h5 {
-    color: #000000;
-    font-size: 16px;
-    text-align: justify;
-
-}
-
-.sobre-container {
-    max-width: 500px;
-    margin: 1000px auto;
-    border-radius: 10px;
-    margin-top: 100px;
-    background-color: rgb(255, 255, 255);
-    padding: 930px;
 
 }
 
@@ -88,3 +87,39 @@ footer a{
 
 }
 
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 5550px;
+    margin: 40px auto;
+    padding: 0 200px;
+}
+
+.article {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.article-header {
+    border-bottom: 2px solid #cecaca;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+} 
+
+.pizza {
+    font-size: 1.2rem;
+    text-align: end;
+    margin-right: 100px;
+}
