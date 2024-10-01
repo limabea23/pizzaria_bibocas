@@ -47,3 +47,11 @@ button[type="submit"] {
 .endereco{
     font-size: 20px;
 }
+
+.maps {
+    margin-left: 800px; 
+}
+
+.localizacao {
+    margin-left: -700px;  
+}
