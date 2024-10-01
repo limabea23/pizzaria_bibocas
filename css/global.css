@@ -42,10 +42,26 @@ header{
     align-items: center;
 }
 
-#links {
+#pages {
     display: flex;
     justify-content: space-around;
     width: 50%;
+    
+}
+
+#pages a { 
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        border-bottom: 3px solid transparent;
+        border-radius: 6px;
+        transition: 0.3s ease-in-out;
+    
+}
+#links a:hover {
+    border-bottom: 3px solid #110301;
+    color: rgb(158, 0, 105);
+    transform: scale(1.0);
 }
 
 
@@ -71,7 +87,6 @@ h5 {
     margin-top: 100px;
     background-color: rgb(255, 255, 255);
     padding: 930px;
-
 }
 
 footer{
@@ -83,4 +98,101 @@ footer{
 footer a{
     text-decoration: none;
     color: #333;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 5550px;
+    margin: 40px auto;
+    padding: 0 200px;
+}
+
+.article {
+    margin: 50px;
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 50px;
+    height: auto;
+    box-shadow: 0 2px 4px rgb(46, 45, 43);
+}
+
+.article-header {
+    border-bottom: 2px solid #cecaca;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+} 
+
+.pizza {
+    font-size: 1.2rem;
+    text-align: end;
+    margin-right: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.figure-section {
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    border-radius: 50px;
+    height: auto;
+    box-shadow: 0 2px 4px rgb(46, 45, 43);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.local-figure {
+    width: 50%;
+    border-radius: 50px;
+    margin: 40px;
+}
+
+.history-section {
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.title-section {
+    height: 350px;
+    margin-left: 1500px;  
+    margin-top: -400px;
+}
+
+.text-section {
+    text-align: justify;
+    display: flex;
+    height: 350px;
+    margin-left: 1500px;  
+    margin-top: -400px;
+}
+
+.title {
+    align-items: flex-start;
+}
+
+.text-intoduction {
+    margin: 40px;
+    text-align: justify;
 }
