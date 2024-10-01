@@ -3,26 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/menu.css"/>
     <title>Menu</title>
 </head>
+
 <body>
     <header>
         <div id ="logo">
-            <img id ="images" src = "assets/img/pizzaria bibocas.png" alt ="logo da pizzaria">
+            <img id ="images" src = "../assets/img/pizzaria bibocas.png" alt ="logo da pizzaria">
         </div>
 
-        <h1> Home </h1>
+        <h1> Menu </h1>
         <div id="links">
-            <a href="pages/index.html" target="_blank" title="Home">Home</a>
-            <a href="pages/menu.html" target="_blank" title="menu">Menu</a>
-            <a href="pages/contato.html" target="_blank" title="Contato">Contato</a>
+            <a href="../index.html" title="Home">Home</a>
+            <a href="./menu.html" title="menu">Menu</a>
+            <a href="./contato.html" title="Contato">Contato</a>
         </div>
     </header>
 
-    <div id="Início">
-        <h1> Pizzaria Bibocas </h1>
-        <div class ="tabela">
+        <h1>Bem-vindos ao nosso menu!</h1>
+        <p>Aqui na <strong>Pizzaria Bibocas</strong>, a gente não brinca quando o assunto é pizza! Nosso menu foi pensado pra você que curte qualidade, variedade e aquele toque especial em cada fatia. Do clássico ao diferentão, temos opções pra todos os gostos: pizzas salgadas e doces que surpreendem e te deixam com gostinho de quero mais. E o melhor, tudo isso com ingredientes frescos e muito capricho!
+        </p>
+
+    <main>
+        <div class="pizzas">
+            <h1>As mais pedidas</h1>
+
+        <section class="container">
+            <div class="pizza">
+                <img src="../img/pizza_calabresa.png" alt="Imagem de uma pizza de calabresa">
+                <h1>Calábrasa</h1>
+                <p>Uma explosão de sabor que combina a irresistível calabresa com um toque de brasa quente e saborosa. Cada mordida traz o sabor robusto e defumado que vai conquistar seu paladar.</p>
+                <h2>R$ 40,00</h2>
+            </div>
+    
+            <div class="pizza">
+                <img src="../img/pizza_frango.png" alt="Imagem de uma pizza de frango com catupiry">
+                <h1>Frangotupiry</h1>
+                <p>A união perfeita entre o frango suculento e o cremoso Catupiry, resultando em uma pizza que é um verdadeiro abraço de sabor. Ideal para quem adora uma combinação clássica com um toque especial.</p>
+                <h2>R$ 45,00</h2>
+            </div>
+    
+            <div class="pizza">
+                <img src="../img/pizza_mussarela.png" alt="Imagem de uma pizza de mussarela">
+                <h1>La Sarela</h1>
+                <p>A pizza mussarela em sua melhor forma, com um toque divertido e irresistível. O sabor clássico da mussarela é elevado a um novo nível de delícia com esta criação.</p>
+                <h2>R$ 38,00</h2>
+            </div>
+    
+            <div class="pizza">
+                <img src="../img/pizza_chocolate.png" alt="Imagem de uma pizza de chocolate">
+                <h1>Chocolícia</h1>
+                <p>Uma pizza para os amantes de chocolate, que mistura a doçura e a riqueza do chocolate com uma textura de delícia. Cada pedaço é uma experiência indulgente para o seu paladar.</p>
+                <h2>R$ 42,00</h2>
+            </div>
+    
+            <div class="pizza">
+                <img src="../img/pizza_banana.png" alt="Imagem de uma pizza de banana">
+                <h1>Bananova</h1>
+                <p>A combinação inovadora de banana com um toque de frescor, trazendo um sabor único e inesperado para a sua pizza. Ideal para quem gosta de experimentar novos sabores e se surpreender.</p>
+                <h2>R$ 40,00</h2>
+            </div>
+        </section>
+
+        <div class="bebidas">
+            <h1>Bebidas</h1>
+
+        <section class="container-secundario">
+            <div class="bebida">
+                <img src="../img/agua_png.png" alt="Imagem de uma garrafa de água">
+                <h1>Água</h1>
+                <p>Água mineral pura e refrescante.</p>
+                <h2>R$ 5,00</h2>
+        </div>
+
+        <div class="bebida">
+            <img src="../img/juice_png.png" alt="Imagem de copos de suco">
+            <h1>Suco</h1>
+            <p>Sucos naturais de diversos sabores (laranja, limão, maracujá).</p>
+            <h2>R$ 8,00</h2>
+        </div>
+
+        <div class="bebida">
+            <img src="../img/refrigerantes_png.png" alt="Imagem de refrigerantes">
+            <h1>Refrigerante</h1>
+            <p>Refrigerantes variados (Coca-Cola, Guaraná, Fanta).</p>
+            <h2>R$ 7,00</h2>
+        </div>
+
+        <div class="bebida">
+            <img src="../img/energetico_png.png" alt="Imagem de energeticos">
+            <h1>Energético</h1>
+            <p>Bebida energética para um impulso extra de energia.</p>
+            <h2>R$ 12,00</h2>
+        </div>
+
+        <div class="bebida">
+            <img src="../img/frozen_png.png" alt="Imagem de frozen">
+            <h1>Frozen</h1>
+            <p>Bebida à base de gelo, criada na região da Sicília, na Itália.</p>
+            <h2>R$ 15,00</h2>
+        </div>
+        </section>
+    </main>
 
     <footer>
         <p>Site desenvolvido por <a href="https://github.com/limabea23" target="_blank" title="GitHub">Beatriz Lima</a> e <a href="https://github.com/annabialeme" target="_blank" title="GitHub">Anna Beatriz Leme</a> </p>
