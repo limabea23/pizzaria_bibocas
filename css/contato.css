@@ -3,14 +3,17 @@ fieldset{
     padding: 20px;
     margin: 20px auto;
 }
+
 legend{
     font-size: large;
 }
+
 label {
     display: block; 
     margin-bottom: 5px; 
     font-weight: bold;
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -20,7 +23,12 @@ textarea {
     margin-bottom: 20px; 
     box-sizing: border-box; 
 }
+
 button[type="submit"] {
     background-color: #f1e7ec; 
     border-radius: 5px;
+}
+
+.endereco{
+    font-size: 20px;
 }
