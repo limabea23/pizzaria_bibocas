@@ -70,7 +70,7 @@ h2 {
     justify-content: space-around;
     height: 150px;
     align-items: center;
-    padding: 20px;
+
 
 }
 
@@ -98,12 +98,12 @@ footer a{
 }
 
 .article {
-    flex: 3;
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    border-radius: 5px;
+    margin: 50px;
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 50px;
+    height: auto;
+    box-shadow: 0 2px 4px rgb(46, 45, 43);
 }
 
 .article-header {
@@ -123,3 +123,65 @@ footer a{
     text-align: end;
     margin-right: 100px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.figure-section {
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    border-radius: 50px;
+    height: auto;
+    box-shadow: 0 2px 4px rgb(46, 45, 43);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.local-figure {
+    width: 50%;
+    border-radius: 50px;
+    margin: 40px;
+}
+
+.history-section {
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.title-section {
+    height: 350px;
+    margin-left: 1500px;  
+    margin-top: -400px;
+}
+
+.text-section {
+    text-align: justify;
+    display: flex;
+    height: 350px;
+    margin-left: 1500px;  
+    margin-top: -400px;
+}
+
+.title {
+    align-items: flex-start;
+}
+
+.text-intoduction {
+    margin: 40px;
+    text-align: justify;
+}
+
