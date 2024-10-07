@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+:root {
+    --cores-header-footer: #ff004d;
+    --cor-body: #e4e6d3 ;
+    --cor-texto-header-footer: #ff004d;
+    --figure-section: rgb(255, 255, 255);
+    --button-pages: rgb(255, 255, 255);
+}
+
 .libre-franklin-uniquifier {
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
