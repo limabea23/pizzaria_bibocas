@@ -1,4 +1,9 @@
-
+:root {
+    --cores-header-footer: #ff004d;
+    --cor-pages: rgb(255, 255, 255);
+    --cor-fieldset: #f1dee1;
+    --cor-button-submit: #f1e7ec;
+}
 
 #pages a { 
     text-decoration: none;
