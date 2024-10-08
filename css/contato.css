@@ -12,21 +12,19 @@
     border-bottom: 3px solid transparent;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
-
 }
 #pages a:hover {
-color: rgb(0, 0, 0);
-transform: scale(1.0);
+    color: rgb(0, 0, 0);
+    transform: scale(1.0);
 }
 
-
-fieldset{
+fieldset {
     background-color: #f1dee1;
     padding: 20px;
     margin: 20px auto;
 }
 
-legend{
+legend {
     font-size: large;
 }
 
@@ -51,14 +49,40 @@ button[type="submit"] {
     border-radius: 5px;
 }
 
-.endereco{
+.endereco {
     font-size: 20px;
 }
 
+
 .maps {
-    margin-left: 800px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .localizacao {
-    margin-left: -700px;  
+    margin-left: auto;  
+}
+
+@media (max-width: 768px) {
+    #pages a {
+        font-size: 1rem; 
+        padding: 10px; 
+        display: block; 
+        text-align: center; 
+    }
+
+    .maps,
+    .localizacao {
+        margin-left: 0; 
+        text-align: center; 
+        width: auto; 
+        display: block; 
+        padding-top: 10px; 
+    }
+
+    fieldset {
+        padding: 15px; 
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
 }
