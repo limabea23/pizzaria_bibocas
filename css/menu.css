@@ -11,19 +11,17 @@
     border-bottom: 3px solid transparent;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
-
 }
 #pages a:hover {
-color: rgb(0, 0, 0);
-transform: scale(1.0);
+    color: rgb(0, 0, 0);
+    transform: scale(1.0);
 }
 
-
 .container,
-.container-secundario{
+.container-secundario {
     display: flex;
     justify-content: space-between;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
 
 .pizza,
@@ -42,6 +40,37 @@ transform: scale(1.0);
     object-fit: cover;
 }
 
-p{
-    font-size: 20px ;
+p {
+    font-size: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    .container,
+    .container-secundario {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+
+    .pizza,
+    .bebida {
+        flex-basis: calc(50% - 20px); 
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 768px) {
+    #pages a {
+        font-size: 1rem; 
+    }
+
+    p {
+        font-size: 18px; 
+    }
+
+    .pizza,
+    .bebida {
+        flex-basis: calc(100% - 20px); 
+        margin-bottom: 15px; 
+    }
 }
